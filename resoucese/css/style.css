@@ -1,0 +1,71 @@
+/* ============================================================================
+            Basic setup
+     =========================================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+@font-face {
+     src: url('images/google-font/molle.regular.woff') format('woff');
+     font-family: molle;}
+ 
+ ul li{
+     list-style: none;
+     
+
+ }
+ ul li a{
+     text-decoration: none;
+     color: bisque;
+ }
+ .ul-parent{
+     background-color: black;
+ }
+ 
+ li{
+     width: 300px;
+     color: white;
+    background-color:#055151;
+     padding:15px 0;
+     font-family: molle;
+     margin-top: 5px;
+     margin: auto;
+     margin-top: 5px;
+     text-align: center ;
+     transition: 0.5s;
+     font-weight: 100;
+     
+ }
+ li:active{ 
+     background-color: green;
+ }
+ .najat li{
+     background-color: #042;
+ }
+ .najat li:hover{
+     background-color: rgb(107, 107, 99);
+ }
+ .magfirat  li{
+     /* background-color: #490357; */
+     background-color: green;
+
+ }
+ .magfirat  li:hover{
+     background-color: orange;
+ }
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
