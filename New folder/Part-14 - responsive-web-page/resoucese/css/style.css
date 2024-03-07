@@ -12,7 +12,7 @@
  /* ====================================================================================
                                  portfolio section
          ===================================================================================*/
-         .portfolio-section{
+         body{
           /* background-color: black; */
           background-image: linear-gradient(rgba(255, 221, 153, 0.5),rgba(255, 221, 153, 0.5)) ,url(images/portfolio-bg.jpg);
             background-repeat: no-repeat;
@@ -134,12 +134,13 @@ text-transform: capitalize;
 background-color:darkcyan;
 padding: 5px 6px;
 color: #fff;
-/* border-radius: 5px 50px; */
+border-radius: 5px ;
 border: 0;
 margin:0 .5rem;
 transition: 0.5s;
 margin: auto;
 margin-bottom: 3px;
+
 
 
 
