@@ -37,7 +37,7 @@
   margin: auto; 
   margin-bottom: 40px; 
   box-shadow: 5px 6px 5px;
-  border-radius: 5px;
+  border-radius: 5px 40px;
  
 }
 .iftari{
@@ -49,7 +49,7 @@
   margin-top: 100px;
    margin: auto; 
    box-shadow: 5px 6px 5px;
-   border-radius: 5px;
+  border-radius: 5px 40px;
 }
 .salat{
   text-align: center;
