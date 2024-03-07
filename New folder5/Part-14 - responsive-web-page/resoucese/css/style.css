@@ -16,7 +16,7 @@
  /* ====================================================================================
                                  portfolio section
          ===================================================================================*/
-         .portfolio-section{
+         body{
           /* background-color: black; */
           background-image: linear-gradient(rgba(255, 221, 153, 0.5),rgba(255, 221, 153, 0.5)) ,url(images/portfolio-bg.jpg);
             background-repeat: no-repeat;
