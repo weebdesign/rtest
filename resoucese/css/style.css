@@ -80,6 +80,12 @@
    
     
  }
+  .icon-parent{
+      box-shadow: 1px 1px 1px 1px; 
+      padding: 7px 0;
+      color: #fff;
+
+  }
  .ramadan .icon i{
     color: #fff;
     text-align: center;
