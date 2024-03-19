@@ -48,8 +48,8 @@ body{
     text-align: center;
     background-color: #042;
  }
- li:hover{ 
-     background-color: rgb(8, 85, 8);
+ .rahmat li:hover{ 
+     background-color: orange;
  }
  .najat li{
      background-color: rgb(18, 128, 16);
