@@ -165,6 +165,19 @@ body{
     margin-top: 4px;
      width: 80px;
      }
+ .jui {
+        background-color: #4d204c;
+       display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+     code{
+        font-family: molle;
+        font-size: 18px;
+        opacity: 0.03;
+        color:#ffffffb8;
+      
+
+    }
  
 
 
