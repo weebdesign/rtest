@@ -170,7 +170,7 @@ body{
        display: grid;
         grid-template-columns: repeat(6,1fr);
     }
-     code{
+     .jui code{
         font-family: molle;
         font-size: 18px;
         opacity: 0.03;
