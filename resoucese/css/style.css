@@ -131,6 +131,9 @@ body{
   h1{
 
     font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    top: 15px;
+    left: 37%;
   }
   #timer{
     display: flex;
