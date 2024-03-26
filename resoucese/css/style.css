@@ -133,7 +133,9 @@ body{
     font-family: "Nanum Myeongjo", serif;
     position: absolute;
     top: 15px;
-    left: 23%;
+    /*left: 23%;*/
+transform: translate(50%);
+	  
   }
   #timer{
     display: flex;
