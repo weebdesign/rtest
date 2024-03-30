@@ -23,6 +23,16 @@
 
 </head>
 <body>
+    <div class="change-color">
+       <div class="btn-head">Change Background Color</div>
+        <button class="red">Red</button>
+        <button class="black">Black</button>
+        <button class="green">Green</button>
+        <button class="yellow">Yellow</button>
+        <button class="violet">Violet</button>
+        <button class="white">Reset</button>
+       
+        </div>
      <section class="clock">
    
    <div id="container">
@@ -118,7 +128,131 @@
         );
        
       });
+       $(document).ready(function(){
+        $('button').click(function(){
+            $("body").addClass("color")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("red")
+        });$('.red').click(function(){
+            $("body").removeClass("yellow")
+        });$('.red').click(function(){
+            $("body").removeClass("violet")
+        });$('.red').click(function(){
+            $("body").removeClass("white")
+        });
+         $('.red').click(function(){
+            $("body").addClass("red")
+        });
+
+
+
+        $('.black').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("red")
+        });$('.black').click(function(){
+            $("body").removeClass("yellow")
+        });$('.black').click(function(){
+            $("body").removeClass("violet")
+        });$('.black').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.black').click(function(){
+            $("body").addClass("black")
+        });
+
+
+        $('.green').click(function(){
+            $("body").removeClass("yellow")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("red")
+        });
+       
+        ;$('.green').click(function(){
+            $("body").removeClass("violet")
+        });$('.green').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.green').click(function(){
+            $("body").addClass("black")
+        });
+       $('.green').click(function(){
+            $("body").addClass("green")
+        });
+
+
+        $('.yellow').click(function(){
+            $("body").removeClass("violet")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("red")
+        });$('.yellow').click(function(){
+            $("body").removeClass("violet")
+        });$('.yellow').click(function(){
+            $("body").removeClass("white")
+        });
+         $('.yellow').click(function(){
+            $("body").addClass("yellow")
+        });
+
+
+        
+        $('.violet').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.violet').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.violet').click(function(){
+            $("body").removeClass("red")
+        });
+        
+        $('.violet').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.violet').click(function(){
+            $("body").addClass("violet")
+        });
+        
+
+
+        $('.white').click(function(){
+            $("body").removeClass("yellow")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("red")
+        });
+        $('.white').click(function(){
+            $("body").addClass("white")
+        });
+        
+        
+
+
+       });
     </script>
+    
 
     
    
