@@ -185,6 +185,54 @@ transform: translate(35%);
       
 
     }
+  .btn-head{
+        background-color: #2d032b;
+         color: gray;
+        width: 350px;
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px 0;
+        border-radius: 5px;
+    }
+    .change-color{
+       text-align: center;
+       margin-bottom: 30px;
+       margin-top: 5px;
+       
+    }
+    .change-color button{
+         color: #d1cece; 
+        border-radius: 5px;
+        width: 42px;
+        margin-top: 3px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    .change-color button:last-child{
+        /* color: #000; */
+        color: gray;
+    }
+    .red{
+       background-color: red;
+    }
+    .black{
+        background-color: black;
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .violet{
+        background-color: violet;
+    }
+    .white{
+        background-color: #fff;
+        color: rgb(19, 19, 19);
+    }
+   
  
 
 
