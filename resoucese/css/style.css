@@ -109,6 +109,13 @@ body{
    transform: rotate(360deg);
  }
 /* clock code here */
+.jui{
+    background:url("images/ed-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   background-position: top;
+   padding-bottom: 8rem;
+}
 
 .clock{
 	margin: auto;
