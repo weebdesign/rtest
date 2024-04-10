@@ -145,6 +145,7 @@ body{
     top: 15px;
     /*left: 23%;*/
 transform: translate(35%);
+	  visibility:hidden;
 	  
   }
   #timer{
