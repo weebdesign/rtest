@@ -232,6 +232,11 @@ transform: translate(46%);
     .violet{
         background-color: violet;
     }
+.plus{
+       background-color:firebrick ;
+	color: rgb(226, 217, 218);
+    }
+
     .white{
-        background-color: #fff;
-        color: rgb(19, 19, 19);
+        background-color:white;
+        color: rgb(19, 19, 18);
