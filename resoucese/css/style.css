@@ -190,9 +190,14 @@ transform: translate(46%);
 
     }
 .changeColor{
-	color:yellow;
-	
-}
+        font-family: molle;
+        font-size: 18px;
+        opacity: 0.05;
+        color:yellow;
+      
+
+    }
+
   .btn-head{
         background-color: #2d032b;
          color: gray;
