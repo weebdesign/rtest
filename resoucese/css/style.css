@@ -185,7 +185,8 @@ transform: translate(46%);
         font-family: molle;
         font-size: 18px;
         opacity: 0.03;
-        color:#ffffffb8;
+/*         color:#ffffffb8; */
+	     color:orange;
       
 
     }
