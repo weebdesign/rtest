@@ -129,6 +129,7 @@ body{
    box-shadow: 5px;
    border-radius: 5px;
 	 position: relative;
+	 overflow:hidden;
    
     /* font-family: molle; */
   }
