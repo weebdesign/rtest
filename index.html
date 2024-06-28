@@ -37,7 +37,7 @@
 </head>
 <body>
 
-    <div class="container" id="body">
+    <div class="container" id="root">
 
         
         <div id="btn-infinity"></div>
@@ -328,7 +328,7 @@ window.onload=()=>{
     main();
 }
 function main(){
-    const root=document.getElementsByClassName("body");
+    const root=document.getElementById("root");
     const btn=document.getElementById("btn-infinity")
     btn.addEventListener ("click",function(){
         const bgColor=genaratedRgbColor();
