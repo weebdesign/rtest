@@ -48,7 +48,7 @@
         <button class="plus">++..</button>
         <hr>
        
-        <div id="btn">Infinity-Color</div>
+        <div id="btn-infinity">Infinity-Color</div>
     </div>
     
 
@@ -64,7 +64,7 @@
     <hr>
      <section class="clock">
    
-   <div id="container">
+   <div id="container" id="infinity">
        
        
     <div class="jui" style="background-color: #4d204c;">
@@ -314,8 +314,8 @@ window.onload=()=>{
     main();
 }
 function main(){
-    const root=document.getElementById("container");
-    const btn=document.getElementById("btn")
+    const root=document.getElementById("infinity");
+    const btn=document.getElementById("btn-infinity")
     btn.addEventListener ("click",function(){
         const bgColor=genaratedRgbColor();
         root.style.backgroundColor=bgColor
