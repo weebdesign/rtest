@@ -253,3 +253,20 @@ transform: translate(46%);
     .white{
         background-color:white;
         color: rgb(19, 19, 18);
+    }
+
+
+
+#btn{
+    margin: 1.5rem 0;
+    /* padding: 2rem 3; */
+    padding: 10px 5px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+     background:linear-gradient(rgb(255, 0, 0),rgb(51, 255, 0),rgb(0, 47, 255));
+    
+    color: aliceblue;
+    font-weight: 600;
+    text-shadow: #56fdef64;
+
