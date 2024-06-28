@@ -63,10 +63,10 @@
     <hr>
      <section class="clock">
    
-   <div id="container" id="infinity">
+   <div id="container">
 
        
-        <div id="btn-infinity">Infinity-Color</div>
+        
        
        
     <div class="jui" style="background-color: #4d204c;">
@@ -312,27 +312,7 @@
 
 
     
-window.onload=()=>{
-    main();
-}
-function main(){
-    const root=document.getElementById("infinity");
-    const btn=document.getElementById("btn-infinity")
-    btn.addEventListener ("click",function(){
-        const bgColor=genaratedRgbColor();
-        root.style.backgroundColor=bgColor
 
-    });
-
-};
-
-function genaratedRgbColor(){
-    const red= Math.floor(Math.random()*255);
-    const green= Math.floor(Math.random()*255);
-    const blue= Math.floor(Math.random()*255);
-    return `rgb(${red},${green},${blue})`
-
-}
      
   </script>
     
