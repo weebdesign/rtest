@@ -140,8 +140,8 @@ body{
     position: absolute;
     top: 15px;
     /*left: 23%;*/ 
-	 text-align:center;
-transform: translate(20%);
+	 
+transform: translate(1%);
 /* 	  color:#8F6837; */
 	  color:firebrick ;
 	
