@@ -220,9 +220,9 @@ transform: translate(0);
        
     }
     .change-color button{
-         color: #d1cece; 
+         color: #fff; 
         border-radius: 5px;
-        width: 42px;
+        width: 65px;
         margin-top: 3px;
         border: none;
         cursor: pointer;
