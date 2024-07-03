@@ -220,7 +220,7 @@ transform: translate(0);
        
     }
     .change-color button{
-         color: gray; 
+        
         border-radius: 5px;
         width: 52px;
         margin-top: 3px;
@@ -240,15 +240,19 @@ transform: translate(0);
     }
     .black{
         background-color: black;
+	     color: gray; 
     }
     .green{
         background-color: green;
+	     color: gray; 
     } 
     .yellow{
         background-color: yellow;
+	     color: gray; 
     }
     .violet{
         background-color: violet;
+	     color: gray; 
     }
 .plus{
        background-color:firebrick ;
