@@ -220,9 +220,9 @@ transform: translate(0);
        
     }
     .change-color button{
-         color: #fff; 
+         color: gray; 
         border-radius: 5px;
-        width: 65px;
+        width: 52px;
         margin-top: 3px;
         border: none;
         cursor: pointer;
@@ -236,6 +236,7 @@ transform: translate(0);
        background:linear-gradient(rgb(255, 0, 0),rgb(255, 165, 0),rgb(255, 255, 0),
 	rgb(51, 255, 0),rgb(0, 47, 255),rgb(0, 0, 255),rgb(75, 0, 130),rgb(128, 0, 128));
 	    padding:5px 5px;
+	    color:fff;
     }
     .black{
         background-color: black;
