@@ -222,7 +222,7 @@ transform: translate(0);
     .change-color button{
         
         border-radius: 5px;
-        width: 52px;
+      
         margin-top: 3px;
         border: none;
         cursor: pointer;
@@ -240,28 +240,33 @@ transform: translate(0);
     }
     .black{
         background-color: black;
-	     color: gray; 
+	     color: white; 
     }
     .green{
         background-color: green;
 	     color: gray; 
+	      width: 42px;
     } 
     .yellow{
         background-color: yellow;
 	     color: gray; 
+	      width: 42px;
     }
     .violet{
         background-color: violet;
 	     color: gray; 
+	      width: 42px;
     }
 .plus{
        background-color:firebrick ;
 	color: rgb(226, 217, 218);
+	  width: 42px;
     }
 
     .white{
         background-color:white;
         color: rgb(19, 19, 18);
+	      width: 42px;
     }
 /* infinity color */
 
