@@ -243,31 +243,99 @@ transform: translate(0);
 	     padding:5px 5px;
 	     color: white; 
     }
-    .green{
-        background-color: green;
-	     color: gray; 
-	      width: 42px;
-    } 
-    .yellow{
-        background-color: yellow;
-	     color: gray; 
-	      width: 42px;
-    }
-    .violet{
-        background-color: violet;
-	     color: gray; 
-	      width: 42px;
-    }
-.plus{
-       background-color:firebrick ;
-	color: rgb(226, 217, 218);
-	  width: 42px;
-    }
+    .red{
+        background-color: red;
+        color: white;
+     }
+     .black{
+         background-color: black;
+         color: white;
+     }
+     .green{
+         background-color: green;
+         color: white;
+     }
+     .yellow{
+         background-color: yellow;
+         color: white;
+       
+     }
+     .indigo{
+         background-color: indigo;
+         color: white;
+     }
+     .white{
+         background-color: #fff;
+         color: rgb(19, 19, 19);
+     }
+     .plus{
+        background-color: firebrick;
+        color: white;
+     }
 
-    .white{
-        background-color:white;
-        color: rgb(19, 19, 18);
-	      width: 42px;
+     .blue{
+        background-color: blue;
+        color: white;
+     }
+     .almond{
+        background-color:#efdecd;
+        color: white;
+     }
+     .amethyst{
+        background-color:#9966cc;
+        color: white;
+     }
+     
+     .applegreen{
+        background-color:#8db600;
+        color: white;
+     }
+     .aqua{
+        background-color:aqua;
+        color: rgb(220, 150, 150);
+
+
+
+     }
+     .candypink{
+        background-color:#e4717a;
+        color: white;
+     }
+     .babyblue{
+        background-color:#89cff0;
+        color: white;
+     }
+     .blueviolet{
+        background-color:#8a2be2;
+        color: white;
+     }
+     .bistre{
+        background-color:#3d2b1f;
+        color: white;
+     }
+     .bluegray{
+        background-color:#6699cc;
+        color: white;
+     }
+     .phlox{
+        background-color:#df00ff;
+        color: white;
+     }
+     .teall{
+        background-color:teal;
+        color: white;
+     }
+     .navy{
+        background-color:navy;
+        color:white;
+     }
+
+
+    
+
+    body{
+     background-color:darkcyan;
+     
     }
 /* infinity color */
 
