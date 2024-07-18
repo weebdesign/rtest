@@ -204,21 +204,22 @@ transform: translate(0);
 
     }
 
-  .btn-head{
-        background-color: #2d032b;
-         color: gray;
-        width: 350px;
+ .btn-head{
+        background-color: indigo;
+         color: lavenderblush;
+        width: 360px;
         margin: auto;
         margin-top: 10px;
         padding: 5px 0;
         border-radius: 5px;
+        
     }
     .change-color{
-       text-align: center;
-       margin-bottom: 30px;
-       margin-top: 5px;
-       
-    }
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 5px;
+        
+     }
     .change-color button{
           /* color: #d1cece;  */
           width: 350px;
