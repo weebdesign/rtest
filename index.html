@@ -41,31 +41,41 @@
         <!-- <h1>Change background color clicked by gerarated rgb</h1> -->
         <div id="btn">Infinity-Color</div>
      </div> 
-         <section class="chng-color"  style="margin-bottom: 30px;">
-    <div class="change-color">
-       <div class="btn-head">Change Background Color</div>
-       <a href="https://weebdesign.github.io/rainbow/"> <button class="red">Puzzle</button></a>
-         <a href="https://weebdesign.github.io/weather/"> <button class="black">Weather app</button> </a>
-<!--         <button class="black">Black</button>  -->
-        <button class="green">Green</button>
-        <button class="yellow">Yellow</button>
-        <button class="violet">Violet</button>
-        <button class="white">Reset</button>
-        <button class="plus">++..</button>
-        
-       
-    </div>
-    
+        <section style="margin-bottom: 0rem; width: 360px;">
+        <div class="change-color">
+           <div class="btn-head">Change Background Color</div>
+            <button class="red">Red</button>
+            <button class="black">Black</button>
+            <button class="green">Green</button>
+            <button class="yellow">Yellow</button>
+            <button class="indigo">indigo</button>
+            <button class="white">Reset</button>
+            <button class="plus">++..</button>
+            
 
-       
-        </div>
-             
-         </section>
+            <button class="blue">blue</button>
+            <button class="almond">almond</button>
+            <button class="amethyst">amethyst</button>
+            <button class="applegreen">apple-green</button>
+            <button class="aqua">aqua</button>
+            <button class="candypink">candy-pink</button>
+            <button class="babyblue">baby-blue</button>
+            <button class="blueviolet">blue-violet</button>
+            <button class="bistre">bistre</button>
+            <button class="phlox">phlox</button>
+            <button class="bluegray">blue-gray</button>
+            <button class="teall">teal</button>
+            <button class="navy">navy</button>
+          
+           
+            </div>
+        </section>
      <div>
 <!--    <a href="https://weebdesign.github.io/caktus/"> <button style="color: white; background-color: red; padding:8px 15px ; border-radius: 5px; font-size:24px ; text-align: center; margin-left: 42%;">Message</button></a></div> -->
     
     
-    
+      <a href="https://weebdesign.github.io/rainbow/"> <button class="red">Puzzle</button></a>
+         <a href="https://weebdesign.github.io/weather/"> <button class="black">Weather app</button> </a>
     <hr>
      <section class="clock">
    
@@ -168,29 +178,34 @@
         );
        
       });
-       $(document).ready(function(){
+        $(document).ready(function(){
         $('button').click(function(){
             $("body").addClass("color")
         });
-        // $('.red').click(function(){
-        //     $("body").removeClass("black")
-        // });
-        // $('.red').click(function(){
-        //     $("body").removeClass("green")
-        // });
-        // $('.red').click(function(){
-        //     $("body").removeClass("red")
-        // });$('.red').click(function(){
-        //     $("body").removeClass("yellow")
-        // });$('.red').click(function(){
-        //     $("body").removeClass("violet")
-     //    });
-     // $('.red').click(function(){
-     //        $("body").removeClass("white")
-     //    });
-        //  $('.red').click(function(){
-        //     $("body").addClass("red")
-        // });
+
+
+        $('.red').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("red")
+        });$('.red').click(function(){
+            $("body").removeClass("yellow")
+        });$('.red').click(function(){
+            $("body").removeClass("indigo")
+        });
+     $('.red').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("blue")
+        });
+         $('.red').click(function(){
+            $("body").addClass("red")
+        });
 
 
 
@@ -202,10 +217,14 @@
         });$('.black').click(function(){
             $("body").removeClass("yellow")
         });$('.black').click(function(){
-            $("body").removeClass("violet")
+            $("body").removeClass("indigo")
         });$('.black').click(function(){
             $("body").removeClass("white")
         });
+        $('.black').click(function(){
+            $("body").removeClass("blue")
+        });
+
         $('.black').click(function(){
             $("body").addClass("black")
         });
@@ -219,20 +238,20 @@
         });
        
         ;$('.green').click(function(){
-            $("body").removeClass("violet")
+            $("body").removeClass("indigo")
         });$('.green').click(function(){
             $("body").removeClass("white")
         });
         $('.green').click(function(){
-            $("body").addClass("black")
+            $("body").removeClass("blue")
         });
-       $('.green').click(function(){
+       
+
+         $('.green').click(function(){
             $("body").addClass("green")
         });
-
-
-        $('.yellow').click(function(){
-            $("body").removeClass("violet")
+      $('.yellow').click(function(){
+            $("body").removeClass("indigo")
         });
         $('.yellow').click(function(){
             $("body").removeClass("black")
@@ -243,9 +262,13 @@
         $('.yellow').click(function(){
             $("body").removeClass("red")
         });$('.yellow').click(function(){
-            $("body").removeClass("violet")
-        });$('.yellow').click(function(){
+            $("body").removeClass("indigo")
+        });
+        $('.yellow').click(function(){
             $("body").removeClass("white")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("blue")
         });
          $('.yellow').click(function(){
             $("body").addClass("yellow")
@@ -253,21 +276,24 @@
 
 
         
-        $('.violet').click(function(){
+        $('.indigo').click(function(){
             $("body").removeClass("black")
         });
-        $('.violet').click(function(){
+        $('.indigo').click(function(){
             $("body").removeClass("green")
         });
-        $('.violet').click(function(){
+        $('.indigo').click(function(){
             $("body").removeClass("red")
         });
         
-        $('.violet').click(function(){
+        $('.indigo').click(function(){
             $("body").removeClass("white")
         });
-        $('.violet').click(function(){
-            $("body").addClass("violet")
+        $('.indigo').click(function(){
+            $("body").removeClass("blue")
+        });
+        $('.indigo').click(function(){
+            $("body").addClass("indigo")
         });
         
 
@@ -285,12 +311,281 @@
             $("body").removeClass("red")
         });
         $('.white').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("blue")
+        });
+        $('.white').click(function(){
             $("body").addClass("white")
         });
+        
+        
+
+
+    //    bllue 
+    $('.blue').click(function(){
+            $("body").addClass("blue")
+        });
+
+        $('.red').click(function(){
+            $("body").removeClass("almond")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("almond")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("almond")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("almond")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("almond")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("almond")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("almond")
+        });
+    // almond  
+      $('.almond').click(function(){
+            $("body").addClass("almond")
+        });
+        // amethyst
+        $('.red').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.almond').click(function(){
+            $("body").removeClass("amethyst")
+        });
+        $('.amethyst').click(function(){
+            $("body").addClass("amethyst")
+        });
+
+        // appleGreen
+        $('.red').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("applegreent")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("amethysapplegreent")
+        });
+        $('.almond').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.amethyst').click(function(){
+            $("body").removeClass("applegreen")
+        });
+        $('.applegreen').click(function(){
+            $("body").addClass("applegreen")
+        });
+
+
+        // aqua
+        $('.red').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.almond').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.amethyst').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.applegreen').click(function(){
+            $("body").removeClass("aqua")
+        });
+        $('.aqua').click(function(){
+            $("body").addClass("aqua")
+        });
+
+        // candypink
+        $('.red').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("aqucandypinka")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("aqucandypinka")
+        });
+        $('.almond').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.amethyst').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.applegreen').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.aqua').click(function(){
+            $("body").removeClass("candypink")
+        });
+        $('.candypink').click(function(){
+            $("body").addClass("candypink")
+        });
+
+        // baby blue
+        $('.red').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.almond').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.amethyst').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.applegreen').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.aqua').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.candypink').click(function(){
+            $("body").removeClass("babyblue")
+        });
+        $('.babyblue').click(function(){
+            $("body").addClass("babyblue")
+        });
+
+        // blueViolet
+        $('.red').click(function(){
+            $("body").removeClass("blueviole")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.indigo').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.blue').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.almond').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.amethyst').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.applegreen').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.aqua').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.candypink').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.babyblue').click(function(){
+            $("body").removeClass("blueviolet")
+        });
+        $('.blueviolet').click(function(){
+            $("body").addClass("blueviolet")
+        });
+
+
+        
+
+
+        $('.blue').click(function(){
+            $(".jui code").addClass("jui code ")
+        });
+    //  
            $('.plus').click(function(){
             $(".jui code").removeClass("jui code ")
         });
-           $('.plus').click(function(){
+       
+       $('.plus').click(function(){
             $(".jui code").addClass("chng-clr")
         });
            
@@ -300,6 +595,13 @@
                 margin:'2px'
             });
         });
+
+
+
+
+
+
+        
            $('.plus').click(function(){
             $(".jui code ").animate({
                 fontSize:'+=3px',
