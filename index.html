@@ -944,8 +944,11 @@ const result =genaratedRgbColor()
     const changeColorbtn=document.getElementById('changeColor')
     changeColorbtn.addEventListener('click',function(){
         playAudio();
-        changeColorbtn.addEventListener('click',function(){
+       
+    });
+              changeColorbtn.addEventListener('click',function(){
         pauseAudio();
+       
     });
 
 
@@ -953,7 +956,7 @@ const result =genaratedRgbColor()
     audio.play()
 }
               function pauseAudio() { 
-  x.pause(); 
+  audio.pause(); 
 } 
 
             </script>
