@@ -38,6 +38,11 @@
 
 </head>
 <body  id="body">
+    <audio id="myAudio">
+        <source src="audio/button-202966.mp3" type="audio/ogg">
+        
+        
+      </audio>
  <div class="container" id="root">
         <div id="btn">Infinity-Color</div>
 
@@ -935,6 +940,16 @@ function genaratedRgbColor(){
 
 }
 const result =genaratedRgbColor()
+               const audio=document.getElementById('myAudio');
+    const changeColorbtn=document.getElementById('changeColor')
+    changeColorbtn.addEventListener('click',function(){
+        playAudio();
+    });
+
+
+              function playAudio(){
+    audio.play()
+}
 
             </script>
     
