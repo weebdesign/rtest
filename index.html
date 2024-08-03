@@ -40,12 +40,12 @@
 <body  id="body">
     <audio id="myAudio">
         <source src="audio/button-202966.mp3" type="audio/ogg">
-         </audio>
+<!--          </audio>
             <audio id="infinityAudio">
         <source src="audio/select-sound-121244.mp3" type="audio/ogg">  
         
         
-      </audio>
+      </audio> -->
  <div class="container" id="root">
         <div id="btn">Infinity-Color</div>
 
@@ -947,7 +947,7 @@ const result =genaratedRgbColor()
          // sound efect     
                const audio=document.getElementById('myAudio');
                const infinityBtn=document.getElementById('btn');
-             const infinityAudio=document.getElementById('infinityAudio');
+             // const infinityAudio=document.getElementById('infinityAudio');
              // const infinityBtn=document.getElementById('btn');
     const changeColorbtn=document.getElementById('changeColor')
     changeColorbtn.addEventListener('click',function(){
@@ -955,7 +955,7 @@ const result =genaratedRgbColor()
        
     });
                infinityBtn.addEventListener('click',function(){
-        function playAudioInfinity();
+         function playAudio();
        
     });
 
@@ -964,12 +964,12 @@ const result =genaratedRgbColor()
               function playAudio(){
     audio.play()
 }
-                            function playAudioInfinity(){
-                  infinityAudio.play()
-}
+//                             function playAudioInfinity(){
+//                   infinityAudio.play()
+// }
  
 
-            </script>
+//             </script>
     
 
      
