@@ -45,7 +45,7 @@ body{
     border-radius: 5px;
      
  }
-.firstClild{
+.rahmat li:first-child{
    
      font-family: arial;
     
