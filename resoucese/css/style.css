@@ -45,6 +45,12 @@ body{
     border-radius: 5px;
      
  }
+li:first-child{
+   
+     font-family: arial;
+    
+     
+ }
  .rahmat .head  {
     font-size: 30px;
     padding: 10px 0;
