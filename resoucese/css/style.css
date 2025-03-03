@@ -143,7 +143,7 @@ body{
    border-radius: 5px;
 	 position: relative;
 	 overflow:hidden;
-	 background-image: url("images/flower.jpg");
+	 background-image: url("resoucese/css/images/flower.jpg");
 	background-attachment: fixed;
 	background-size: cover;
     background-position: 100%;
