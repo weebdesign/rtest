@@ -11,6 +11,11 @@
 }
 body{
  background-color:#f4f2f9 ;
+	 background-image: url("images/flower.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+    background-position: 100%;
+	background-repeat: no-repeat;
 }
 @font-face {
      src: url('images/google-font/molle.regular.woff') format('woff');
