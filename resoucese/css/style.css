@@ -206,7 +206,7 @@ transform: translate(0);
      .jui code{
         font-family: molle;
         font-size: 18px;
-        opacity: 0.0;
+        opacity: 0.3;
      color:#ffffffb8; 
 	    
       
@@ -401,3 +401,4 @@ h1{
     cursor: pointer;
 
 }
+
